@@ -55,6 +55,9 @@ Inteligência artificial aplicada ao desenvolvimento, orquestração de agentes 
 ---
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=JonatasHCR&show_icons=true&hide_border=true&title_color=6d3fe6&icon_color=6d3fe6&include_all_commits=true&count_private=true&locale=pt-br" alt="Estatísticas do GitHub">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JonatasHCR&layout=compact&hide_border=true&title_color=6d3fe6&locale=pt-br" alt="Linguagens mais usadas">
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=JonatasHCR&theme=default" alt="Estatísticas do GitHub">
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JonatasHCR&theme=default" alt="Linguagens mais usadas">
+</p>
+<p>
+  <img src="https://streak-stats.demolab.com?user=JonatasHCR&locale=pt_BR&hide_border=true&ring=6d3fe6&fire=6d3fe6&currStreakLabel=6d3fe6" alt="Sequência de contribuições">
 </p>
