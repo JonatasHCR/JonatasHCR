@@ -11,26 +11,27 @@ Gosto de compreender o problema, seus requisitos e contexto antes de definir uma
 
 ### 🧩 Plataforma UFC Engenharia
 
-Quatro sistemas internos em produção, no mesmo servidor e atrás de um **login único (Keycloak)**. Cada um substituiu uma planilha.
+Cinco sistemas internos no mesmo servidor e atrás de um **login único (Keycloak)**. Quatro substituíram planilhas; o quinto cruza os dados deles.
 
 | Sistema | O que faz | Stack |
 |---|---|---|
 | [**Receitas**](https://github.com/JonatasHCR/Gerenciamento_de_Receita) | Contratos, notas fiscais, recebimentos, previsão e relatórios em PDF/Excel | Rails 8 · Hotwire · PostgreSQL |
 | [**InvControl**](https://github.com/JonatasHCR/Gerenciamento_de_Iventario) | Inventário de TI com cessões, devoluções e termos em PDF | FastAPI · Next.js 16 · PostgreSQL |
 | [**Radar**](https://github.com/JonatasHCR/Sistema-Despesa) | Contas a pagar com alerta nativo no Windows | FastAPI · Next.js 15 · PostgreSQL |
-| [**Controle de Despesa**](https://github.com/JonatasHCR/Controle_Despesa) | Importa a planilha do ERP e gera relatórios por centro de custo | Flask · HTMX · PostgreSQL |
+| [**Controle de Despesa**](https://github.com/JonatasHCR/Controle_Despesa) | Importa a planilha do ERP e gera relatórios e gráficos por centro de custo | Flask · HTMX · Chart.js · PostgreSQL |
+| **Controle Financeiro** *(em implantação)* | Receita × custo por contrato, tendência, markup e relatório em PDF, lendo os outros sistemas por API | Flask · Chart.js · Playwright · PostgreSQL |
 | [**infra**](https://github.com/JonatasHCR/infra) | Keycloak, portal de entrada e scripts que unem a plataforma | Keycloak · Docker Compose |
 
-### 🪙 Control_Coin *(em desenvolvimento)*
+### 🪙 [Control_Coin](https://github.com/JonatasHCR/Control_Coin) *(em desenvolvimento)*
 
-Controle financeiro pessoal escrito com especificação completa antes do código: 39 regras de negócio, 12 casos de uso e um pipeline que falha se alguma regra ficar sem teste.
+Controle financeiro pessoal escrito com especificação completa antes do código: 40 regras de negócio, 13 casos de uso, 150+ testes e um pipeline no Jenkins que falha se alguma regra ficar sem teste e só publica em produção com aprovação.
 `NestJS · Next.js · Prisma · PostgreSQL · Turborepo · Jenkins`
 
 ---
 
 ### 📊 Em números
 
-**5** sistemas construídos do zero · **1.300+** testes automatizados · **420+** commits no último ano · **3** linguagens
+**6** sistemas construídos do zero · **1.600+** testes automatizados · **420+** commits no último ano · **3** linguagens
 
 ### 🛠️ Stack
 
